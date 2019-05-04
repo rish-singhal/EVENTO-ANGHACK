@@ -1,0 +1,78 @@
+.navbar{
+    transition: 0.1s;
+    transition-timing-function: ease-out;
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0,0);
+    border: none;
+}
+
+.navbar-default{
+    font-size: 1.5vh;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    padding: 0.8vh 0;
+    /* box-shadow: 0em 0.1em 0.3em 0.1em gray; */
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(0,0,0,0)
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.5vh;
+    font-weight: 800;
+}
+
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li:hover{
+    border-bottom: #009FFF solid;
+}
+
+.navbar-inverse>.container-fluid>.navbar-header>.navbar-brand{
+    display: none;
+}
+
+#itclogo{
+    width: 40px;
+    height: auto;
+}
+
+#itclogo{
+    font-weight: bolder;
+    color: #009FFF;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Desktop */
+    .navbar-inverse {
+        margin-top: 3.8vh;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    /* Phones */
+
+    .in{
+        background-color: #fff;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        color: black;
+    }
+
+    .collapsing{
+        background-color: #fff;
+        color: black;
+    }
+ }
