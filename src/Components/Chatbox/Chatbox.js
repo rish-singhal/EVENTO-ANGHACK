@@ -3,23 +3,26 @@ import 'react-chat-widget/lib/styles.css';
 import React, { Component } from 'react';
 import './Chatbox.css';
 
+
 export default class Chatbox extends Component {
 
     messageHandler = (message) => {
-        fetch('https://mayankchatbot.herokuapp.com/predict', {
+        console.log(":kshdjsd");
+        fetch('https://ibm-watdad.herokuapp.com/ask', {
             method: 'post',
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify({
-                query: message
+                question: message
             })
         })
             .then(res => res.json())
             .then(data => {
-                addResponseMessage(data.Message)
+                console.log(data)
+                addResponseMessage(data.answer);
             })
     }
     componentDidMount() {
-        addResponseMessage('Hello, there! Welcome to EVENTO :)')
+        addResponseMessage('Hello, there! Ask me anything. :)')
     }
     render() {
         return (
@@ -31,4 +34,6 @@ export default class Chatbox extends Component {
             />
         );
     }
+
+
 }
