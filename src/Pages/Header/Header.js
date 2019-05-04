@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './Header.css'
 import { Grid, Row, Col } from 'react-bootstrap';
 import img from '../../graphics/home_img.png';
-import main_logo from '../../graphics/ith_logo.png';
-import calendar from '../../graphics/calendar.png';
-import location from '../../graphics/location.png';
+import main_logo from '../../graphics/evn_logo.png';
 export default class Header extends Component {
 
     componentDidMount() {

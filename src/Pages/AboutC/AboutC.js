@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './AboutC.css';
 import { Grid, Row, Col } from 'react-bootstrap';
 import img2 from '../../graphics/3.png';
-import tl from '../../graphics/techloop.png';
+
 
 export default class AboutC extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class AboutC extends Component {
                         <Col id='hackiv-desc' md={6} lg={6}>
                             <h4>EVENTO</h4>
                             <p>
-                                To be Added :)
+                                To be Added
                         </p>
                         </Col>
                         <Col md={6} mdHidden xsHidden smHidden lg={6}>
