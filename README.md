@@ -1,2 +1,2 @@
-# itc2019_website
-Website for ITC 2019
+# EVENTO_APP
+Made as a part of AngelHack 2019 Delhi
