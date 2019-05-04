@@ -8,7 +8,7 @@ export default class Chatbox extends Component {
 
     messageHandler = (message) => {
         console.log(":kshdjsd");
-        fetch('https://ibm-watdad.herokuapp.com/ask, {
+        fetch('https://ibm-watdad.herokuapp.com/ask', {
             method: 'post',
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify({
