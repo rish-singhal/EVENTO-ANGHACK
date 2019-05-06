@@ -12,7 +12,7 @@ export default class AboutC extends Component {
                     <Row id='r2' className='show-grid'>
                         <Col id='hackiv-desc' md={6} lg={6}>
                             <h4>EVENTO</h4>
-                            <p>Eventojj is a software-based end to end solution to facilitate all activities in any kind of event or happenings which might necessitate the tracking of resources involved.
+                            <p>Evento is a software-based end to end solution to facilitate all activities in any kind of event or happenings which might necessitate the tracking of resources involved.
                         </p>
                         </Col>
                         <Col md={6} mdHidden xsHidden smHidden lg={6}>
